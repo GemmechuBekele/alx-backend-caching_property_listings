@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Django
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.env
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.swp
+*.swo
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.img
+*.log
+*.sock
+
+# PostgreSQL data (if mounted)
+postgres_data/
+
+# Redis data (if mounted)
+*.rdb
+dump.rdb
+
+# PyCharm
+.idea/
+
+# Node (if frontend included)
+node_modules/
